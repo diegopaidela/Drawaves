@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Drawaves - Automação com Inteligência Artificial</title>
-  <meta name="description" content="Automação inteligente, agente de IA, CRM e agendamentos automáticos para empresas. Atendemos Ouricuri/PE e todo Brasil.">
+  <meta name="description" content="Automação inteligente, agente de IA, CRM e agendamentos automáticos para clínicas. Atendemos Ouricuri/PE e todo Brasil.">
   <style>
     body { margin:0; font-family: Arial, sans-serif; background:#f6f7fb; color:#222; }
     .header { padding:40px; text-align:center; background:#ffffff; box-shadow:0 2px 10px rgba(0,0,0,0.05); }
@@ -14,46 +14,78 @@
     h2 { margin-top:0; }
     .btn { display:inline-block; padding:14px 20px; background:#25d366; color:white; text-decoration:none; border-radius:6px; font-weight:bold; }
     footer { text-align:center; margin:35px 0; color:#777; font-size:14px; }
+    .two-cols { display:flex; gap:24px; flex-wrap:wrap; }
+    .col { flex:1; min-width:240px; }
+    .contact-card { padding:16px; background:#fbfffb; border-radius:8px; box-shadow:0 1px 6px rgba(0,0,0,0.03); }
+    ul { margin-top:0; }
+    @media(max-width:720px){ .two-cols{flex-direction:column;} }
   </style>
 </head>
 <body>
 
   <div class="header">
+    <!-- Substitua o src por sua logo se quiser -->
+    <img src="https://via.placeholder.com/120x120?text=Drawaves" alt="Logo Drawaves" style="width:96px;height:96px;object-fit:contain;border-radius:8px;">
     <h1>Drawaves</h1>
-    <p class="sub">Automação com Inteligência Artificial, CRM e agendamentos automáticos.</p>
+    <p class="sub">Automação com IA — Agente, CRM e Agendamento para Clínicas</p>
   </div>
 
   <div class="container">
     <h2>O que fazemos</h2>
-    <p>A Drawaves é uma agência de automação que ajuda empresas a atender clientes automaticamente pelo WhatsApp,
-    fazer agendamentos sem atendente, organizar contatos em CRM e aumentar conversões usando inteligência artificial.</p>
+    <p>A Drawaves é uma agência de automação que ajuda clínicas a automatizar o atendimento via WhatsApp, realizar agendamentos automáticos, enviar lembretes e organizar pacientes em um CRM. Soluções práticas para reduzir faltas e profissionalizar o atendimento.</p>
 
-    <h3>Ideal para:</h3>
-    <ul>
-      <li>Clínicas</li>
-      <li>Imobiliárias</li>
-      <li>Comércios e prestadores de serviços</li>
-    </ul>
+    <div class="two-cols" style="margin-top:18px;">
+      <div class="col">
+        <h3>Ideal para</h3>
+        <ul>
+          <li>Clínicas e consultórios médicos</li>
+          <li>Clínicas odontológicas</li>
+          <li>Centros de estética e fisioterapia</li>
+        </ul>
 
-    <h3>Vantagens</h3>
-    <ul>
-      <li>Atendimento 24h por WhatsApp</li>
-      <li>Agendamentos e lembretes automáticos</li>
-      <li>CRM com histórico de clientes</li>
-      <li>Qualificação de leads e envio de informações automáticas</li>
-    </ul>
+        <h3>Vantagens</h3>
+        <ul>
+          <li>Atendimento 24h via WhatsApp</li>
+          <li>Agendamento automático e confirmação de consultas</li>
+          <li>Lembretes por WhatsApp para reduzir faltas</li>
+          <li>CRM com histórico de pacientes</li>
+        </ul>
+      </div>
 
-    <a class="btn" href="https://wa.me/55SEUNUMERO?text=Olá%2C+quero+saber+mais+sobre+a+automação+da+Drawaves" target="_blank">
-      Falar no WhatsApp
-    </a>
+      <div class="col contact-card">
+        <h3>Contato rápido</h3>
+        <p>Fale com a Drawaves agora mesmo:</p>
 
-    <p style="margin-top:30px;">
-      Localizada em Ouricuri/PE — atendemos empresas de todo o Brasil.
-    </p>
+        <!-- ATENÇÃO: Substitua 55SEUNUMERO pelo seu número no formato 55DDDNÚMERO -->
+        <p style="margin:12px 0;">
+          <a class="btn" href="https://wa.me/5587991203383?text=Ol%C3%A1%2C+gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+a+Drawaves+para+minha+cl%C3%ADnica" target="_blank" rel="noopener">
+            Falar no WhatsApp
+          </a>
+        </p>
+
+        <p style="margin-top:10px;">
+          Email: <a href="mailto:drawaves.marketing@gmail.com">drawaves.marketing@gmail.com</a><br>
+          Local: Ouricuri - PE
+        </p>
+      </div>
+    </div>
+
+    <!-- NOVA SEÇÃO: SOBRE -->
+    <div style="margin-top:22px;">
+      <h2>Sobre a Drawaves</h2>
+      <p>A Drawaves é uma agência de automações e IA localizada em Ouricuri/PE. Fundada por Diego Santos, desenvolvemos soluções práticas para clínicas pequenas e médias que querem profissionalizar o atendimento com tecnologia acessível. Atuamos desde configuração de agentes até integração com CRM e agendamento automático.</p>
+    </div>
+
+    <!-- NOVA SEÇÃO: CONTATO DETALHADO -->
+    <div style="margin-top:18px;">
+      <h2>Contato</h2>
+      <p>Para falar com nossa equipe, clique no botão do WhatsApp acima ou envie um e-mail para <a href="mailto:drawaves.marketing@gmail.com">drawaves.marketing@gmail.com</a>. Estamos localizados em Ouricuri/PE e atendemos clínicas de todo o Brasil.</p>
+    </div>
+
   </div>
 
   <footer>
-    © <span id="ano"></span> Drawaves — Todos os direitos reservados.
+    © <span id="ano"></span> Drawaves — Automação e IA para Clínicas — Ouricuri/PE
   </footer>
 
 <script>
@@ -62,3 +94,4 @@
 
 </body>
 </html>
+
